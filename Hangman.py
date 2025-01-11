@@ -1,3 +1,4 @@
+
 import random
 import string
 from wordlist import words
@@ -39,6 +40,7 @@ def hangman():
             lives = live - 1 # remove 1 life if wrong
             print('invalid character')
     # Gets here when the len(word_letters) == 0
+    lives = 0
     if lives == 0:
         print('You died, sorry the word was' )
     
