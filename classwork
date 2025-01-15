@@ -1,0 +1,9 @@
+
+woodview =  ['Esele','Valentine','Jackson','Tochi','Juliana','Princewill','Gift', 'Gab']
+vanessa = ['philip','Adamac','Pastor','Marcus']
+ids = [3,4,7,19,5,9,3,34,23,56]
+#Tuple
+Scores=(34,56,78,12,35,55,75)
+#Dictionary
+woodview_dic =  {'flat 8':'Esele','flat 7':'Valentine','flat 6':'Jackson','flat 5':'Tochi','flat 4':'Juliana','flat 3':'Princewill','flat 2':'Gift','flat 1':'Gab'}
+age_dic = {'kelvin':'23','jude':'33','Best':'41','Angel':'25','Rose':'39'}
