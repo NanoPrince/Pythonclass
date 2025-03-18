@@ -1,22 +1,18 @@
-#  Madlib project
-# sring concatenations variations (aka how to put strings together)
-# 3 different ways to format strings are as follows:
-# we wanted to create a string that says: 'subscribe to python Engineers bootcamp'
-# x = "python Engineers bootcamp"
+#Lets create string that say: subscribe to python engineers bootcamp
+#my_answer = 'python engineers bootcamp' 
+# lets few way we concatenate the string with the vairable
+#input() # it means this function CALLABLE
 
-# So a few ways to write that would be:
-print("subsribe to ") # concatenation
-print("subsribe to  ") # str.format()
-print("subscribe to") # F-string
+#print("subscribe to " + my_answer) #concatenation
+#print("subscribe to "+  str.format( my_answer)) #string format method
+#print(f"subscribe to {my_answer}") #F-string usage
 
-#Madlib code 
-"""
-blank1 = input("line1: ") # exclusive club
-blank2 = input("line2: ") # life time
-blank3 = input("line3: ") # interactive
-blank4 = input("line4: ") # your friends
-"""
-#madlib = f"Being part of Python Enginners {blank1} is such an opportunity of a {blank2} \nOur class sessions is very {blank3}, and engaging with practical examples. Tell {blank4} about the good news!"
+dash1 = input("first word: ") # exclusive club
+dash2 = input("second word: ")# life time
+dash3 = input("third word: ")# interactive
+dash4 = input("last word: ")# your friends
 
-    # print the madlib program
-#print(madlib)
+madlib = f"Being part of python engineers {dash1}  is such an opportunity of a {dash2}.\nOur class session is very {dash3}, and engaging with practical examples. Tell {dash4} about the good news!"
+
+#print the madlib statement
+print(madlib)

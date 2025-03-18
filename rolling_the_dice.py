@@ -1,6 +1,4 @@
-"""
 import random
-
 
 while True:
     choice = input('Roll the Dice now by choosing (y or n): ').lower()
@@ -14,20 +12,19 @@ while True:
         break
     else:
         print("Invalid input choice, please choose a 'yes' or 'no'")
-"""
-import random
+
+'''
+import random 
 
 while True:
-	choices = input("please roll the dice by choosing a 'y' or 'n': ").lower()
-	
-	if choices == 'y':
-		roll1 = random.randint(1,6)
-		roll2 = random.randint(1,6)
-		print(f'{roll1},{roll2}')
-	elif choices == 'n':
-		print('Thank you for playing our rolling dice game!')
-		break
-	else:
-		print("Invalid input choice, please choose a 'y' or 'n'")
-		
-        
+  choice = input('Roll the dice? (y/n): ').lower()
+  if choice == 'y':
+      die1 = random.randint(1, 6)
+      die2 = random.randint(1, 6)
+      print(f'({die1}, {die2})')
+  elif choice == 'n':
+      print('Thanks for playing!')
+      break
+  else:
+      print('Invalid choice!')'
+'''
