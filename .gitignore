@@ -1,0 +1,17 @@
+# Log files
+*.Log
+#temporary files
+temp/
+#Hidden files
+.
+# Ignore node_modules directory
+node_modules/
+# Ignore .env files (containing sensitive information)
+venv/
+.env
+# Ignore build artifacts
+build/
+dist/
+
+# Ignore operating system specific files
+Thumbs.db # Windows
